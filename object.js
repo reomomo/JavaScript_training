@@ -6,7 +6,7 @@ const apple = {
 console.log(apple.variety);
 apple.made_in.push("岩手県");
 console.log(apple.made_in);
-console.log(apple.made_in.length());
+console.log(apple.made_in.length);
 
 const cat = {
   name: "メル",
@@ -28,7 +28,7 @@ const cat = {
     name: "シャケ",
   }
 }
-console.log(cat.meow());
-console.log(cat.walk());
-console.log(cat.eat("サンマ"));
+cat.meow();
+cat.walk();
+cat.eat("サンマ");
 console.log(cat.favorite_foods.name);
